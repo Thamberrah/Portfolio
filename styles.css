@@ -1,0 +1,199 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #080808;
+    color: white;
+}
+
+
+/* Navigation bar Section */
+#nav {
+    float: left;
+    width: 5%;
+    background-color: black;
+}
+
+li {
+    list-style-type: none;
+    font-size: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+div.profile {
+    width: 100%;
+}
+
+img.pic {
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+ul.sections li {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 10px;
+    margin-top: 30px;
+}
+
+ul.sections {
+    margin-top: 100px;
+    padding-left: 0;
+}
+
+ul.socials {
+    margin-top: 298px;
+    padding-left: 0;
+}
+
+ul.socials li {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+
+/* Homepage Section */
+#main, #about {
+    float: left;
+    width: 95%;
+    height: 100vh;
+}
+
+div.intro {
+    float: left;
+    width: 50%;
+    letter-spacing: normal;
+    font-size: 80px;
+    margin-top: 300px;
+}
+
+div.logo {
+    float: left;
+    width: 50%;
+}
+
+span.ld {
+    margin-right: 10px;
+}
+
+div.hello {
+    padding-left: 40px;
+}
+
+div.i {
+    padding-left: 40px;
+}
+
+div.first {
+    padding-left: 40px;
+}
+
+div.last {
+    padding-left: 40px;
+}
+
+/* About Section */
+div.me {
+    float: left;
+    width: 50%;
+}
+div.qu {
+    float: left;
+    width: 50%;
+}
+
+div.gaming {
+    float: left;
+    width: 50%;
+}
+div.reading {
+    float: left;
+    width: 50%;
+}
+
+
+/* Sliders */
+.slidey, .slider {
+    width: 660px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slidex, .slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+
+.slidex::-webkit-scrollbar, .slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.slidex::-webkit-scrollbar-thumb, .slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+.slidex::-webkit-scrollbar-track, .slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slidex > div, .slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 291px;
+  height: 310px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+/*.slidex > div:target, .slides > div:target {
+/*   transform: scale(0.8); */
+
+.slidey > a, .slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0.5rem 0.5rem 0;
+  position: relative;
+}
+
+.slidey > a:active, .slider > a:active {
+  top: 1px;
+}
+
+.slidey > a:focus, .slider > a:focus {
+  background: #000;
+}
