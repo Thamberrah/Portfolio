@@ -149,7 +149,6 @@ div.icon {
   scroll-snap-points-x: repeat(300px);
   scroll-snap-type: mandatory;
   */
-  margin-left: 320px;
 }
 
 .slides::-webkit-scrollbar {
@@ -206,7 +205,4 @@ div.icon {
 
 .slider > a:focus, .slidery > a:focus {
   background: #000;
-}
-div.slidery {
-    padding-left: 250px;
 }
