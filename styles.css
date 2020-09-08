@@ -118,11 +118,19 @@ div.hobby {
 div.subheading {
     text-align: center;
 }
+
 p.subdesc {
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
+}
+p.desc1 {
+    margin-bottom: 5px;
 }
 
+div.icon {
+    float: left;
+    width: 50%;
+}
 
 /* Sliders */
 .slider {
