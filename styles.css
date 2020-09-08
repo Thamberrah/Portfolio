@@ -104,13 +104,23 @@ div.last {
 }
 
 /* About Section */
+/*Me Section */
 div.mee {
     width: 50%;
     float: left;
 }
+
+/*Hobby Section */
 div.hobby {
     width: 50%;
     float: left;
+}
+div.subheading {
+    text-align: center;
+}
+p.subdesc {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
@@ -131,6 +141,7 @@ div.hobby {
   scroll-snap-points-x: repeat(300px);
   scroll-snap-type: mandatory;
   */
+  margin-left: 320px;
 }
 
 .slides::-webkit-scrollbar {
@@ -168,7 +179,7 @@ div.hobby {
 /*.slides > div:target {
 /*   transform: scale(0.8); */
 
-.slider > a {
+.slider > a, .slidery > a {
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -181,10 +192,13 @@ div.hobby {
   position: relative;
 }
 
-.slider > a:active {
+.slider > a:active, .slidery > a:active {
   top: 1px;
 }
 
-.slider > a:focus {
+.slider > a:focus, .slidery > a:focus {
   background: #000;
+}
+div.slidery {
+    padding-left: 250px;
 }
