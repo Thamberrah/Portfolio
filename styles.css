@@ -104,33 +104,24 @@ div.last {
 }
 
 /* About Section */
-div.me {
-    float: left;
+div.mee {
     width: 50%;
+    float: left;
 }
-div.qu {
-    float: left;
+div.hobby {
     width: 50%;
-}
-
-div.gaming {
     float: left;
-    width: 50%;
-}
-div.reading {
-    float: left;
-    width: 50%;
 }
 
 
 /* Sliders */
-.slidey, .slider {
+.slider {
     width: 660px;
     text-align: center;
     overflow: hidden;
 }
 
-.slidex, .slides {
+.slides {
   display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
@@ -142,21 +133,21 @@ div.reading {
   */
 }
 
-.slidex::-webkit-scrollbar, .slides::-webkit-scrollbar {
+.slides::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 
-.slidex::-webkit-scrollbar-thumb, .slides::-webkit-scrollbar-thumb {
+.slides::-webkit-scrollbar-thumb {
   background: black;
   border-radius: 10px;
 }
 
-.slidex::-webkit-scrollbar-track, .slides::-webkit-scrollbar-track {
+.slides::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.slidex > div, .slides > div {
+.slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 291px;
@@ -174,10 +165,10 @@ div.reading {
   font-size: 100px;
 }
 
-/*.slidex > div:target, .slides > div:target {
+/*.slides > div:target {
 /*   transform: scale(0.8); */
 
-.slidey > a, .slider > a {
+.slider > a {
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -190,10 +181,10 @@ div.reading {
   position: relative;
 }
 
-.slidey > a:active, .slider > a:active {
+.slider > a:active {
   top: 1px;
 }
 
-.slidey > a:focus, .slider > a:focus {
+.slider > a:focus {
   background: #000;
 }
