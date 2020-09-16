@@ -121,13 +121,34 @@ div.last {
 div.mee {
     width: 50%;
     float: left;
+    margin-top: 85px;
 }
 
+div.me {
+    padding-left: 10px;
+}
 div.title {
-    font-size: 38px;
+    font-size: 40px;
+    font-weight: 400;
+
 }
 div.txt {
-    line-height: 135%;
+    line-height: 130%;
+    font-size: 18px;
+}
+p.txt {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+div.qu {
+    margin-top: 30px;
+    padding-left: 10px;
+}
+div.heading {
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
 }
 
 /*Hobby Section */
@@ -136,7 +157,9 @@ div.hobby {
     float: left;
 }
 div.subheading {
-    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 10px;
 }
 
 p.subdesc {
@@ -189,7 +212,7 @@ div.icon {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 600px;
-  height: 310px;
+  height: 335px;
   margin-right: 5px;
   border-radius: 10px;
   background: #eee;
