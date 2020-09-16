@@ -123,6 +123,10 @@ div.mee {
     float: left;
 }
 
+div.title {
+    font-size: 38px;
+}
+
 /*Hobby Section */
 div.hobby {
     width: 50%;
