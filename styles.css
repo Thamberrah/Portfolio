@@ -134,7 +134,7 @@ div.icon {
 
 /* Sliders */
 .slider {
-    width: 660px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
 }
@@ -168,9 +168,9 @@ div.icon {
 .slides > div {
   scroll-snap-align: start;
   flex-shrink: 0;
-  width: 291px;
+  width: 600px;
   height: 310px;
-  margin-right: 50px;
+  margin-right: 5px;
   border-radius: 10px;
   background: #eee;
   transform-origin: center center;
@@ -205,4 +205,8 @@ div.icon {
 
 .slider > a:focus, .slidery > a:focus {
   background: #000;
+}
+
+img.IT, img.DM {
+    border-radius: 10px;
 }
