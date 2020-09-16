@@ -126,6 +126,9 @@ div.mee {
 div.title {
     font-size: 38px;
 }
+div.txt {
+    line-height: 135%;
+}
 
 /*Hobby Section */
 div.hobby {
