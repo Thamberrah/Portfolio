@@ -9,7 +9,7 @@ body {
 /* LOGO SECTION */
 
 #hopass {
-    animation: swing 1s infinite ease-in-out;
+    animation: swing 2s infinite ease-in-out;
     transform-origin: top;
     transform-box: fill-box;
 }
@@ -21,7 +21,7 @@ body {
 }
 
 #turny {
-    animation: turn 1s infinite linear;
+    animation: turn 3s infinite alternate;
     transform-origin: center;
     transform-box: fill-box;
 }
