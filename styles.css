@@ -62,8 +62,8 @@ a {
     text-decoration: none;
     color: #E6E8E6;
 }
-ul.items {
-    padding-top: 48px;
+ul#MenuItems {
+    padding-top: 22px;
 }
 
 /* MAINCONTENT SECTION */
@@ -96,4 +96,18 @@ div.col-2 h1 {
 div.col-2 p {
     font-size: 25px;
     line-height: 145%;
+}
+
+@media only screen and (max-width: 800px) {
+    div.col-2 {
+        flex-basis: 100%;
+    }
+    div.col-2 {
+        text-align: center;
+    }
+    
+    div.logo {
+        width: 100%;
+    }
+
 }
