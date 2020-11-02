@@ -62,7 +62,7 @@ a {
     text-decoration: none;
     color: #E6E8E6;
 }
-ul#MenuItems {
+ul.items {
     padding-top: 22px;
 }
 
