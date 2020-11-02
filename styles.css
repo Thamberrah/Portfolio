@@ -4,8 +4,37 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to bottom, #325568 0%, #422040 100%) no-repeat;
+    background: linear-gradient(to bottom, #2233f6 0%, #422040 100%) no-repeat;
 }
+/* LOGO SECTION */
+
+#hopass {
+    animation: swing 1s infinite ease-in-out;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes swing{
+    0%{transform:rotate(-30deg)}
+    50%{transform:rotate(30deg)}
+    100%{transform:rotate(-30deg)}
+}
+
+#turny {
+    animation: turn 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes turn {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+    
 
 div.container {
     max-width: 1400px;
