@@ -98,6 +98,11 @@ div.col-2 p {
     line-height: 145%;
 }
 
+div.content img {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 @media only screen and (max-width: 800px) {
     div.col-2 {
         flex-basis: 100%;
