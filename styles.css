@@ -61,6 +61,7 @@ nav ul li {
 a {
     text-decoration: none;
     color: #E6E8E6;
+    font-size: 22px;
 }
 ul.items {
     padding-top: 22px;
