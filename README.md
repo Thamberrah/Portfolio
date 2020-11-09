@@ -13,4 +13,4 @@ I would say that I am proficient in HTML and CSS and am currently working throug
 <br>
 <p> So without further ado, here is my Portfolio...</p>
 
-<a href="https://gracious-poitras-ca2b18.netlify.app/index.html"></a>
+<a href="https://gracious-poitras-ca2b18.netlify.app/index.html">Site</a>
