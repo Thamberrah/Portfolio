@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(to bottom, #2233f6 0%, #422040 100%) no-repeat;
+    /*background: linear-gradient(to bottom, #2233f6 0%, #422040 100%) no-repeat;*/
+    background: black;
 }
 /* LOGO SECTION */
 
