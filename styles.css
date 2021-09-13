@@ -114,6 +114,13 @@ div.link {
     text-align: right;
 }
 
+div.rocont p {
+    width: 60%;
+}
+div.rocont img {
+    width: 40%;
+}
+
 
 @media only screen and (max-width: 800px) {
     div.col-2 {
