@@ -56,9 +56,12 @@ nav ul {
     display: inline-block;
     list-style-type: none;
 }
-nav ul li {
+nav ul.items li {
     display: inline-block;
     margin-right: 20px;
+}
+li.contact {
+    margin-right: 0;
 }
 a {
     text-decoration: none;
