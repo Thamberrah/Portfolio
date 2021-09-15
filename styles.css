@@ -60,7 +60,7 @@ nav ul.items li {
     display: inline-block;
     margin-right: 20px;
 }
-li.contact {
+nav ul.items li.contact {
     margin-right: 0;
 }
 a {
