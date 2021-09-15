@@ -133,3 +133,8 @@ a.more {
         text-align: center;
     }
 }
+@media only screen and (max-width: 730px) {
+    nav {
+        display: none;
+    }
+}
