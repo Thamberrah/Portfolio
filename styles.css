@@ -117,6 +117,9 @@ div.link {
 div.w1-row {
     justify-content: none;
 }
+a.more {
+    display: none;
+}
 
 
 @media only screen and (max-width: 800px) {
