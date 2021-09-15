@@ -133,13 +133,3 @@ a.more {
         text-align: center;
     }
 }
-@media only screen and (max-width: 730px) {
-    nav {
-        display: none;
-    }
-}
-@media only screen and (max-width: 430px) {
-    svg {
-        width: 370px;
-    }
-}
