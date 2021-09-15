@@ -114,6 +114,9 @@ div.link {
     text-align: right;
 }
 
+div.g-row {
+    justify-content: none;
+}
 
 
 @media only screen and (max-width: 800px) {
