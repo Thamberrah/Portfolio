@@ -47,29 +47,64 @@ div.container {
 div.navbar {
     display: flex;
     padding: 20px;
+    margin-top: 2em;
 }
-nav {
+div.single-box {
     flex: 1;
-    text-align: right;
+    text-align: center;
+    min-width: 400px;
+    min-height: 400px;
+
 }
-nav ul {
-    display: inline-block;
-    list-style-type: none;
+
+.single-box {
+    color: #fff;
+    text-align: center;
+    float: left;
+    border: 1px grey solid;
+    border-radius: 50%;
 }
-nav ul.items li {
-    display: inline-block;
-    margin-right: 20px;
+
+.single-box:hover {
+    animation: animate 2s linear infinite;
+    cursor: pointer;
 }
-nav ul.items li.contact {
-    margin-right: 0;
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 206, 209, 0.7);
+    }
+    40% {
+        box-shadow: 0 0 0 50px rgba(0, 206, 209, 0);
+    }
+    80% {
+        box-shadow: 0 0 0 50px rgba(0, 206, 209, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 206, 209, 0.7);
+    }
 }
+
 a {
     text-decoration: none;
     color: #E6E8E6;
-    font-size: 22px;
+    font-size: 40px;
 }
-ul.items {
-    padding-top: 22px;
+
+a.logo {
+    margin: 0 auto;
+}
+
+p.work, p.contact {
+    padding: 150px 0 0 0;
+}
+div.wk {
+    margin-right: 4%;
+}
+div.ct {
+    margin-left: 3%;
+}
+div.lg {
+    padding: 5% 10% 0 0;
 }
 
 /* CONTENT SECTION */
