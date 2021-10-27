@@ -89,8 +89,10 @@ div.col-2 {
     color: white;
 }
 div.col-2 img {
-    max-width: 100%;
     padding: 40px 0;
+}
+div.first-image {
+    text-align: center;
 }
 div.prof {
     text-align: center;
@@ -101,7 +103,6 @@ div.col-2 h1 {
 }
 div.intro p {
     font-size: 25px;
-    line-height: 145%;
 }
 
 div.content img {
@@ -116,15 +117,43 @@ div.maincontent {
 div.link {
     text-align: right;
 }
-
+section.sections {
+    margin-top: 10px;
+}
+span.line {
+    border-bottom: 5px solid #ccc;
+    display: block;
+    margin-bottom: 50px;
+}
 div.w1-row {
     justify-content: none;
+    border: 1px solid #fff;
+    padding-left: 10px;
 }
-a.more {
-    display: none;
+a p {
+    padding-top: 20px;
+}
+h2 {
+    font-size: 30px;
+}
+div.col-2 h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+div.w1-row p {
+    font-size: 18px;
 }
 
+div.w2-row {
+    margin-top: 10px;
+}
+h3.left-item {
+    padding-left: 10px;
+}
 
+div.row-me {
+    justify-content: normal;
+}
 @media only screen and (max-width: 800px) {
     div.col-2 {
         flex-basis: 100%;
