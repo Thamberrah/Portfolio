@@ -154,6 +154,11 @@ h3.left-item {
 div.row-me {
     justify-content: normal;
 }
+
+
+/* PROJECTS PAGE */
+
+
 @media only screen and (max-width: 800px) {
     div.col-2 {
         flex-basis: 100%;
