@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #ffffff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+h1, h2, h3, h4, p, span, a {
+  font-family: 'Rubik', sans-serif;
+  font-size: calc(11px + 0.5rem);
+  /*
+    WEIGHTS:
+    Light 300
+    Light 300 Itatlic
+    Regular 400
+    Medium 500
+    Default Bold: 600
+    */
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2, h3, h4, p {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: calc(22px + .5rem);
+}
+
+h2 {
+  font-size: calc(20px + .5rem);
+}
+
+h3 {
+  font-size: calc(18px + .5rem);
+}
+
+h4 {
+  font-size: calc(16px + .5rem);
+}
+
+body {
+    background: #000000;
+    color: var(--text);
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul.items li {
+    display: inline-block;
+    margin: 20px 40px 0 0;
+}
+ul a {
+    font-size: 28px;
+    color: var(--text);
+    text-decoration: none;
+}
+
+
+/***** Logo Section ****/
+#hopass {
+    animation: swing 2s infinite ease-in-out;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes swing{
+    0%{transform:rotate(-30deg)}
+    50%{transform:rotate(30deg)}
+    100%{transform:rotate(-30deg)}
+}
+
+#turny {
+    animation: turn 3s infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes turn {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
