@@ -6,6 +6,7 @@
         <meta content="text/html" charset="utf-8" http-equiv="Conntent-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/scss" href="styles.scss">
         
         <title>Portfolio</title>
 
@@ -16,7 +17,7 @@
         <header>
 
             <div class="logo">
-                <a href="sample.html">
+                <a href="index.html">
                     <svg style="display: block;" width="310" height="250" viewBox="0 0 432 370" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Frame 1" clip-path="url(#clip0)">
                           <g id="hopass">
@@ -75,6 +76,7 @@
             <nav>
                 <ul class="items">
                     <li class="work"><a href="work.html">WORK</a></li>
+                    <li class="blog"><a href="blog.html">BLOG</a></li>
                     <li class="contact"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </nav>
@@ -83,16 +85,87 @@
 
         <main>
 
-            <section class="intro">
-                
+            <section class="intro flex">
+                <div class="col-2">
+                    <img src="/assets/profile_pic.jpg" alt="profile-picture" width="400">
+                </div>
+                <div class="col-2">
+                    <h1>Hi, I'm Thamber!</h1>
+                    <p>I'm a front end developer who is dedicated to complete anything I set my mind to and enjoys learning new things by committing to self development and improvement.</p>
+                </div>
             </section>
+
+            <div class="projects">
+
+                <section class="flex">
+                    <div class="col-2">
+                        <h2>Selected Work</h2>
+                    </div>
+                    <div class="col-2 link">
+                        <a href="work.html">View Projects &#8594</a>
+                    </div>
+                </section>
+                <span class="line"></span>
+    
+    
+                <article class="app">
+                    <div class="col-2">
+                        <h3>Rotario</h3>
+                        <p>Rotario, a 2D Mobile Game created to benefit a charity which provides opportunities for people with disabilities. This mobile app was created using MIT App Inventor which works with an online designer and blocks editor to select components and assemble the program.
+                        <br>
+                        <a href="projects.html">Read More &#8594</a>
+                        </p>
+                    </div>
+                    <div class="col-2 img">
+                        <img src="assets/game/logo.png" alt="Rotario-Image" width="200">
+                    </div>
+                </article>
+    
+                <section class="flex">
+                    <article class="col-2">
+                        <h3>British Rowing Association Site Redesign</h3>
+                        <p>Lorem ipsum dolor sit amet
+                            <br>
+                            <a href="projects.html">Read More &#8594</a>
+                        </p>
+                        <img src="#" alt="Site-Image">
+                    </article>
+                    <article class="col-2">
+                        <h3>IMDG Newsletter</h3>
+                        <p>Lorem ipsum dolor sit amet
+                            <br>
+                            <a href="projects.html">Read More &#8594</a>
+                        </p>
+                        <img src="#" alt="Newsletter-Image">
+                    </article>
+                </section>
+
+            </div>
+
+            <section class="about">
+                <h2>About Me</h2>
+                <span class="line"></span>
+                <div class="flex">
+                    <article>
+                        <h3>My Story</h3>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </article>
+                    <article class="experience">
+                        <h3>Experience</h3>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </article>
+                </div>
+            </section>
+
 
         </main>
 
     </body>
 
     <footer>
-
+        Something Of Mine Will Go Here
+        <br>
+        &copy;Something Will Appear At Some Point
     </footer>
 
 </html>
