@@ -13,7 +13,7 @@
 h1, h2, h3, h4, p, span {
     font-family: 'Rubik', sans-serif;
     font-size: calc(11px + 0.5em);
-    line-height: 1.35em;
+    line-height: 1.3em;
 }
 
 h1 {
@@ -25,10 +25,12 @@ h2, h3, h4  {
 }
 p {
     font-weight: normal;
+    margin-bottom: 7px;
 }
 
 h1 {
     font-size: calc(22px + .5em);
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -37,6 +39,7 @@ h2 {
 
 h3 {
     font-size: calc(18px + .5em);
+    margin: 5px 0 10px 0;
 }
 
 h4 {
@@ -149,11 +152,29 @@ img.game {
 .img {
     text-align: center;
 }
+img.site {
+    width: 500px;
+    border-radius: 5px;
+}
+img.tech {
+    width: 360px;
+    border-radius: 5px;
+}
+.example {
+    text-align: center;
+}
 
 .border {
     border: 2px solid var(--line);
     border-radius: 10px;
     padding: 5px;
+}
+.border img {
+    margin-top: 10px;
+}
+
+.news {
+    align-items: initial;
 }
 
 .about {
@@ -170,9 +191,16 @@ footer {
 @media only screen and (max-width: 800px) {
     .col-2, .flex {
         flex-basis: 100%;
+        min-width: auto;
     }
     .work {
         flex-basis: 50%;
+    }
+    .pic {
+        text-align: center;
+    }
+    .pic img {
+        width: 60%;
     }
 }
 
