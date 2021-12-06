@@ -109,8 +109,13 @@ main {
 }
 .intro {
     text-align: center;
-    margin:10% 0 23% 0;
+    margin:10% 0 15% 0;
 }
+.intro img {
+    border-radius: 50%;
+    width: 400px;
+}
+
 .mainheading {
     font-size: 34pt;
     line-height: 42pt;
@@ -161,10 +166,6 @@ button {
     margin-top: 20px;
     justify-content: space-between;
 }
-.intro img {
-    border-radius: 50%;
-    width: 400px;
-}
 
 .link {
     text-align: right;
@@ -176,11 +177,12 @@ button {
     margin-bottom: 20px;
 }
 
-.app {
+.app, .guide {
     display: flex;
     border: 2px solid var(--line);
     border-radius: 10px;
     padding: 5px;
+    margin: 40px 0;
 }
 
 img.game {
@@ -190,11 +192,11 @@ img.game {
     text-align: center;
 }
 img.site {
-    width: 800px;
+    width: 416px;
     border-radius: 5px;
 }
 img.tech {
-    width: 577px;
+    width: 300px;
     border-radius: 5px;
 }
 .example {
@@ -202,7 +204,7 @@ img.tech {
 }
 
 .me {
-    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .border {
