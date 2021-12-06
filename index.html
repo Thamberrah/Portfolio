@@ -6,10 +6,11 @@
         <meta content="text/html" charset="utf-8" http-equiv="Conntent-Type">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <link rel="stylesheet" type="text/scss" href="styles.scss">
-        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <title>Portfolio</title>
 
+        <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
     </head>
 
     <body>
@@ -75,7 +76,6 @@
             </div>
             <nav>
                 <ul class="items">
-                    <li class="work"><a href="work.html">WORK</a></li>
                     <li class="blog"><a href="blog.html">BLOG</a></li>
                     <li class="contact"><a href="contact.html">CONTACT</a></li>
                 </ul>
@@ -85,14 +85,28 @@
 
         <main>
 
-            <section class="intro flex">
-                <div class="pic col-2">
-                    <img src="/assets/profile_pic.jpg" alt="profile-picture">
-                </div>
-                <div class="col-2">
-                    <h1>Hi, I'm Thamber!</h1>
-                    <p>I'm a front end developer who is dedicated to complete anything I set my mind to and enjoys learning new things by committing to self development and improvement.</p>
-                </div>
+            <section class="intro">
+                <h1 class="mainheading">
+                    Hi, I'm <span class="highlight">Thamber Rahman</span>.
+                    <br>
+                    I'm a Junior Web Developer in London.
+                </h1>
+                <p class="text">
+                    I'm passionate about creating fluid digital experiences and I want to use web development to help people, including myself produce unique ideas and visualisations on a display.
+                    <br>
+                    You can find me on <a href="https://www.linkedin.com/in/muhammad-thamber-rahman-740210186/" target="_blank" class="text-link">Linkedin</a> and <a href="https://www.instagram.com/thamber_rah/">Instagram</a>, download my <a href="https://docs.google.com/document/d/1yRERNMGSfOD0h2k_FgLIiMA30q6HFBw7/edit?usp=sharing&ouid=103164737834436122988&rtpof=true&sd=true" class="text-link">resume</a>, or shoot me an <a href="mailto:thamber02@hotmail.com" class="text-link">email</a>.
+                </p>
+
+                <a href="work.html">
+                    <button>
+                        View my work
+                        <i class="mdi mdi-arrow-right">
+                            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" />
+                            </svg>
+                        </i>
+                    </button> 
+                </a> 
             </section>
 
             <section class="projects">
@@ -119,7 +133,7 @@
                         
                     </div>
                     <div class="col-2 img">
-                        <img class="game" src="assets/game/logo.png" alt="Rotario-Image">
+                        <img class="game" src="assets/project-images/game/logo.png" alt="Rotario-Image">
                     </div>
                 </article>
 
@@ -132,40 +146,40 @@
                         This new campaign would promote the rowing industry, by offering them content on the fun that joining comes with...                      
                         </p>
                         <a href="projects.html">View Project &#8594</a>
-                        <br>
-                        <img class="site" src="/assets/britishrowingsite-screenshot.png" alt="Site-Image">
+                        <div class="example">
+                            <img class="site" src="/assets/project-images/britishrowingsite-screenshot.png" alt="Site-Image">
+                        </div>
+
                     </div>
                     <div class="col-2 border">
                         <h3>IMDG Newsletter</h3>
                         <p>
                         To promote IMDG, a Work Experience newsletter created to target young adults that have an interest in technology, by offering them an introduction into tech and internships.
                         <br>
-                        As well as other helpful information on interviews and applications into the different sectors of working within tech.                 
+                        As well as other helpful information on interviews and applications into the different sectors of working within tech...                 
                         </p>
                         <a href="projects.html">View Project &#8594</a>
-                        <br>
                         <div class="example">
-                            <img class="tech" src="/assets/imdgnewsletter-screenshot.png" alt="Newsletter-Image">
+                            <img class="tech" src="/assets/project-images/imdgnewsletter-screenshot.png" alt="Newsletter-Image">
                         </div>
                     </div>
                 </article>
 
             </section>
 
-
-            <section class="about">
+            <section class="me">
                 <h2>About Me</h2>
                 <span class="line"></span>
 
-                <article class="flex">
+                <article class="flex about">
                     <div class="col-2">
                         <h3>My Story</h3>
                         <p>
-                        A Junior Web Developer, currently attending a 2-year course for a Web Development degree. With a year's worth of experience, I've learnt how to be proficient in the scripting langauges of HTML and CSS, through building and adjusting responsive websites and landing campaigns.
+                        I'm a Junior Web Developer living in London. I have a started my career in email development and I'm currently completing a 2-year undergraduate course on Web Development to get a deeper understanding of web development and programming, from frontend interactive design to backend skeleton and database structures.
                         </p>
-                        <p>In my spare time away from coding, I enjoy playing RTT/RTS (Real Time Strategy/Tactic) games.
-                        <br>
-                        Other than being on my computer all day, I also like playing badminton with fellow friends and family.</p>
+                        <p>In my spare time, away from studying, I enjoy playing RTT/RTS (Real Time Strategy/Tactic) games, as well as playing badminton with fellow friends and family.
+                        On the side however, I do enjoy picking up mini projects to experiment and gain new skills.
+                        </p>
                     </div>
                     <div class="col-2">
                         <h3>Experience</h3>
@@ -180,15 +194,19 @@
                 </article>
             </section>
 
-
         </main>
 
-    </body>
+        <footer>
+            Feel free to contact me! I'm always available to collaborate and bounce ideas around.
+            <div class="socials flex">
+                <a href="https://www.linkedin.com/in/muhammad-thamber-rahman-740210186/" target="_blank" class="text-link"><span class="iconify" data-icon="mdi:linkedin"></span></a>
+                <a href="https://www.instagram.com/thamber_rah/"><span class="iconify" data-icon="mdi:instagram"></span></a>
+                <a href="mailto:thamber02@hotmail.com" class="text-link"><span class="iconify" data-icon="mdi:email"></a>
+            </div>
+            
+            &copy; Thamber Rahman 2021
+        </footer>
 
-    <footer>
-        Something Of Mine Will Go Here
-        <br>
-        &copy;Something Will Appear At Some Point
-    </footer>
+    </body>
 
 </html>
