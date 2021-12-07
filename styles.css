@@ -37,7 +37,7 @@ h3 {
 }
 
 h4 {
-    font-size: calc(16px + .5em);
+    font-size: calc(14px + .5em);
 }
 
 a {
@@ -231,8 +231,9 @@ img.topics {
 .about {
     align-items: initial;
 }
-.work {
+.projects .work {
     padding-left: 0;
+    margin-left: 0;
 }
 
 
