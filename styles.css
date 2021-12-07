@@ -12,6 +12,7 @@
 h1, h2, h3, h4, p, span {
     font-family: 'Raleway', sans-serif;
     line-height: 1.3em;
+    color: var(--text);
 }
 
 h1 {
@@ -39,15 +40,23 @@ h4 {
     font-size: calc(16px + .5em);
 }
 
-body {
-    background: #000000;
-    color: var(--text);
-}
 a {
     color: #710E0E;
     text-decoration: none;
     font-size: 20px;
 }
+
+i {
+    color: var(--text);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+body {
+    background: #000000;
+    color: var(--text);
+}
+
 
 header {
     display: flex;
@@ -177,7 +186,7 @@ button {
     margin-bottom: 20px;
 }
 
-.app, .guide {
+.guide {
     display: flex;
     border: 2px solid var(--line);
     border-radius: 10px;
@@ -185,18 +194,16 @@ button {
     margin: 40px 0;
 }
 
-img.game {
-    width: 200px;
-}
-.img {
-    text-align: center;
-}
 img.site {
     width: 416px;
     border-radius: 5px;
 }
 img.tech {
     width: 300px;
+    border-radius: 5px;
+}
+img.topics {
+    width: 700px;
     border-radius: 5px;
 }
 .example {
@@ -227,11 +234,35 @@ img.tech {
 .work {
     padding-left: 0;
 }
+
+
 /*  Work Page */
-section img {
-    width: 90%;
+.work {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.box .col-2 {
+    padding-left: 0;
 }
 
+.summary {
+    width: 60%;
+}
+.rowing {
+    width: 60%;
+}
+.imdg {
+    width: 50%;
+}
+.rotario {
+    width: 20%;
+}
 
 footer {
     margin-top: 50px;
