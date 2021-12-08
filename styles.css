@@ -25,6 +25,7 @@ p {
     font-size: calc(14px + 0.5em);
     font-weight: normal;
     margin-bottom: 7px;
+    line-height: 33px;
 }
 
 h2 {
@@ -116,6 +117,9 @@ main {
     margin-top: 40px;
     
 }
+section {
+    margin-top: 100px;
+}
 .intro {
     text-align: center;
     margin:10% 0 15% 0;
@@ -152,15 +156,15 @@ button {
     outline:none;
     color: #710E0E;
     margin-top: 25px;
-  }
-  button:hover {
+}
+button:hover {
     background-color: white;
     border-color: red;
-  }
-  button .mdi {
+}
+button .mdi {
     vertical-align: middle;
     color: #710E0E;
-  }
+}
 
 .col-2 {
     flex-basis: 49%;
@@ -237,9 +241,9 @@ img.topics {
 }
 
 
-/*  Work Page */
-.work {
-    max-width: 1400px;
+/**************************  Work Page ******************************/
+.container {
+    max-width: 1600px;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -264,6 +268,66 @@ img.topics {
 .rotario {
     width: 20%;
 }
+
+/*************************** Rowing Page *************************/
+.content {
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.content ul {
+    padding-left: 40px;
+    font-size: 22px;
+}
+.content ul li {
+    margin-bottom: 10px;
+}
+.content h2 {
+    margin-bottom: 20px;
+}
+.content h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.preintro p {
+    font-size: 18px;
+}
+.preintro h1 {
+    width: 70%;
+    font-weight: 200;
+    margin: 50px 0;
+    line-height: 50px;
+}
+
+img.home {
+    width: 25%;
+}
+img.event {
+    width: 35%;
+}
+img.new {
+    width: 26%;
+}
+
+
+.container img.alone {
+    width: 100%;
+}
+img.screen1 {
+    width: 34%;
+}
+img.screen2 {
+    width: 30%;
+}
+img.screen3 {
+    width: 32%;
+}
+
+.design {
+    text-align: center;
+}   
+
 
 footer {
     margin-top: 50px;
