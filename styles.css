@@ -310,7 +310,6 @@ img.new {
     width: 26%;
 }
 
-
 .container img.alone {
     width: 100%;
 }
@@ -324,9 +323,14 @@ img.screen3 {
     width: 32%;
 }
 
-.design {
-    text-align: center;
+.design img {
+    width: 100%;
 }   
+
+/*************************** Blog Page ****************************/
+section.content {
+    margin-top: 80px;
+}
 
 
 footer {
