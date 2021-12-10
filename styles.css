@@ -7,6 +7,7 @@
 :root {
     --text: #E6E8E6;
     --line: #ccc;
+    --font-text: 'Raleway', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 h1, h2, h3, h4, p, span {
@@ -259,7 +260,7 @@ img.topics {
     border: 2px solid var(--line);
     border-radius: 10px;
     padding: 5px;
-    padding-left: 10px;
+    padding: 20px 0 20px 10px;
 }
 .border img {
     margin-top: 10px;
@@ -319,6 +320,7 @@ img.topics {
 }
 .content ul li {
     margin-bottom: 10px;
+    list-style-type: circle;
 }
 .content h2 {
     margin-bottom: 20px;
@@ -337,27 +339,40 @@ img.topics {
     line-height: 50px;
 }
 
+.page {
+    min-width: 300px;
+    flex-basis: 33%;
+    text-align: center;
+}
 img.home {
-    width: 25%;
+    width: 72%;
 }
 img.event {
-    width: 35%;
+    width: 100%;
 }
 img.new {
-    width: 26%;
+    width: 76%;
 }
+
 
 .container img.alone {
     width: 100%;
 }
+
+
+.screen {
+    min-width: 300px;
+    flex-basis: 30%;
+    text-align: center;
+}
 img.screen1 {
-    width: 34%;
+    width: 100%;
 }
 img.screen2 {
-    width: 30%;
+    width: 84%;
 }
 img.screen3 {
-    width: 32%;
+    width: 85%;
 }
 
 .design img {
@@ -367,6 +382,14 @@ img.screen3 {
 /*************************** Blog Page *************************/
 section.content {
     margin-top: 80px;
+}
+.topic li {
+    list-style-type: inherit;
+}
+ol li {
+    list-style-position: inside;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
 /*************************** CV Page *************************/
@@ -474,10 +497,16 @@ footer {
     }
 }
 
+@media only screen and (max-width:900px) {
+    .nav-item {
+        margin-left: 45px;
+    }
+}
+
 @media only screen and (max-width: 780px) {
     svg {
-        width: 200;
-        height: 150;
+        width: 200px;
+        height: 150px;
     }
 
     .nav-menu {
@@ -521,13 +550,46 @@ footer {
         transform: translateY(-8px) rotate(-45deg);
     }
 
+
+    /**************************** CONTENT SECTION *************************/
+    .preintro h1 {
+        width: 100%;
+        line-height: 42pt;
+    }
+
+    .page {
+       flex-basis: 100%;
+       margin-bottom: 30px;
+    }
+    img.home {
+        width: 100%;
+    }
+    img.new {
+        width: 100%;
+    }
+
+    .screen {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+    img.screen1 {
+        padding-left: 40px;
+    }
+    img.screen2 {
+        width: 100%;
+    }
+    img.screen3 {
+        width: 100%;
+    }
+
+        /**************************** CONTENT SECTION *************************/
+    .col-75 {
+        width: 100%;
+    }
+
 }
 
-@media only screen and (max-width:900px) {
-    .nav-item {
-        margin-left: 45px;
-    }
-}
+
 
 @media only screen and (max-width: 480px) {
 
@@ -546,7 +608,7 @@ footer {
         font-size: 18px;
         line-height: 28px;
     }
-    i {
+    i, li {
         font-size: 16px;
     }
 
@@ -568,6 +630,11 @@ footer {
     }
 
 
+    .preintro h1 {
+        line-height: 28pt;
+    }
+
+
     .container {
         padding-left: 0;
         padding-right: 0;
@@ -582,5 +649,6 @@ footer {
     footer {
         font-size: 16px;
         margin: 40px 0;
+        padding: 0 20px;
     }
 }
