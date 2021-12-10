@@ -10,6 +10,11 @@
     --font-text: 'Raleway', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+html {
+    font-family: var(--font-text);
+}
+
+
 h1, h2, h3, h4, p, span {
     font-family: 'Raleway', sans-serif;
     line-height: 1.3em;
@@ -612,8 +617,9 @@ footer {
         font-size: 18px;
         line-height: 28px;
     }
-    i, li {
+    i, li, ol li {
         font-size: 16px;
+        line-height: 20px;
     }
 
     button {
@@ -631,6 +637,7 @@ footer {
     }
     .border {
         margin-bottom: 20px;
+        padding-left: 5px;
     }
 
 
