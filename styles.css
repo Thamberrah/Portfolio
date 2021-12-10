@@ -392,6 +392,10 @@ ol li {
     margin-bottom: 10px;
 }
 
+p.bit {
+    margin-top: 30px;
+}
+
 /*************************** CV Page *************************/
 .cv {
     text-align: center;
